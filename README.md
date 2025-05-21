@@ -1,5 +1,3 @@
-# Primeira-Atividade
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/projeto1.css">
-    <link rel="stylesheet" href="Js/jS.JS">
+    <script src="Js/jS.JS"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body class="corpo">
     
     <header>
 <nav id='menu'>
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
   <ul>
-    <img src="Imagem/expedition.jpg" alt="" width="40px" height="40px">
-    <li><a href='http://'>Home</a></li>
-    <li><a href='http://'>About</a></li>
-    <li><a href='http://'>Contact Us</a></li>
+    <img src="c:\Users\aluno\Downloads\expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
+    <li><a href='#'>Home</a></li>
+    <li><a href='html/paginasobre.html'>Sobre</a></li>
+    <li><a href='html/Galeriaexpedicao.html'>Galeria</a></li>
   </ul>
 </nav>
 
@@ -34,21 +35,126 @@
 <img src="primeira imagemdiv.jpg" alt="" width="150px" height="150px">
 <img src="terceiraimagemdiv.jpg" alt="" width="150px" height="150px"></div>
 	<div id="div3"><ul>
+       <h1>Cadastro para logar no xbox</h1>
         Nome:
-        <input type="Nome">
+        <input type="name">
         <br> <br> E mail:
         
         <input type="email"> <br> <br>
         Clique aqui se você não for um robô
          <input type="checkbox" id="rb1" name="rb" value="">
-    </ul></div>
+         <br> <br>
+         <div class="col-12">
+            
+   <button type="submit" class="btn btn-primary botao-login">Sign in</button>
+
+  </div>
+ 
+    </ul>
+    
 </div>
 
+
     </main>
-    <footer></footer>
+    <footer>
+        <div class="card text-center">
+  <div class="card-header" style="background-color:darkgray; color: antiquewhite;">
+    Referencias
+  </div>
+  <div class="card-body">
+    <h5 class="card-title" style="color: bisque;">Grau Tecnico</h5>
+    <p class="card-text" style="color: aliceblue;">Com o suporte e a ajuda do professor Emanuell</p>
+    <a href="https://www.xbox.com/pt-BR/games/store/clair-obscur-expedition-33/9PPT8K6GQHRZ" class="btn btn-primary">Clique aqui para ir para o site xbox</a>
+  </div>
+  <div class="card-footer">
+    Todos os direitos Reservados <br>
+    21/05/2025
+  </div>
+</div>
+    </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="Js/jS.JS"></script>
+<link rel="stylesheet" href="css/projeto1.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+<body style="background-color:black;">
+    <header>
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <img src="c:\Users\aluno\Downloads\expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
+    <li><a href='../index.html'>Home</a></li>
+    <li><a href='paginasobre.html'>Sobre</a></li>
+    <li><a href='#'>Galeria</a></li>
+  </ul>
+</nav>
+
+    </header>
+    <iframe width="900" height="480" src="https://www.youtube.com/embed/GhazUEpdII0" title="CLAIR OBSCUR EXPEDITION 33 Gameplay Walkthrough FULL GAME [4K 60FPS PC ULTRA] - No Commentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="height: 500px; width: 100%; display: inline-block;">
+    </iframe>
+    <h5 class="text-center" style="color:black; background-color: aliceblue;">Vídeo completo mostrando o jogo, incluindo sua Gameplay</h5>
+
+
+    <div id="cssportal-grid">
+</div>
+<div class="text-center"> 
+    <img src="c:\Users\aluno\Downloads\galeria1.jpg" alt="">
+    <img src="c:\Users\aluno\Downloads\galeria2.jpg" alt="">
+    <img src="c:\Users\aluno\Downloads\galeria 3.jpg" alt="">
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Expediction 33</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<link rel="stylesheet" href="css/projeto1.css">
+    <script src="Js/jS.JS"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <header>
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <img src="c:\Users\aluno\Downloads\expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
+    <li><a href='../index.html'>Home</a></li>
+    <li><a href='#'>Sobre</a></li>
+    <li><a href='/html/Galeriaexpedicao.html'>Galeria</a></li>
+  </ul>
+</nav>
+
+    </header>
+    <img src="c:\Users\aluno\Downloads\lumiere.jpg" alt="" width="100%" height="100%">
+    <header class="ccc text-center" style="background-color: red; height: 50px;">
+        <h1>Lidere a expedição. Quebre o ciclo.</h1>
+
+        <h5>Clair Obscur: Expedition 33 é um RPG inovador em turnos com mecânicas singulares em tempo real, que tornam as batalhas mais envolventes e viciantes do que nunca. Explore um mundo fantástico, inspirado na Belle Époque da França, e enfrente os mais terríveis inimigos.
+
+Uma vez por ano, a Artífice desperta e pinta em seu monólito. Ela pinta o número amaldiçoado. E todos com aquela idade viram fumaça e desaparecem. Ano após ano, um número menor é pintado e mais de nós somos apagados. Amanhã, ela despertará e pintará "33". E amanhã, partiremos em nossa missão final: destruir a Artífice, para que ela nunca mais possa pintar a morte.
+
+Somos a Expedição 33.</h5>
+
+    </header>
+    
+</body>
+</html>
 function updatemenu() {
   if (document.getElementById('responsive-menu').checked == true) {
     document.getElementById('menu').style.borderBottomRightRadius = '0';
@@ -60,34 +166,30 @@ function updatemenu() {
 
 
 
-.lista{
-display: block;
-}
 #cssportal-grid {
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 0;
-	width: 100%;
-	height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    width: 100%;
+    height: 100%;
 }
 #div1 {
-	grid-area: 1/1/2/2;
-	background-color: rgba(185,206,112, 0.5);
+    background-color: var(150px blue);
 }
+
 #div2 {
-	grid-area: 1/2/2/3;
-	background-color: rgba(65,144,34, 0.5);
+    background-color: var(150px red);
 }
+
 #div3 {
-	grid-area: 1/3/2/4;
-	background-color: rgba(98,65,31, 0.5);
+    background-color: var(150px green);
 }
 #menu {
-	background: #0099CC;
+	background-color:darkgray;
 	height: 45px;
 	padding-left: 18px;
 	border-radius: 10px;
+	text-align: center;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -95,8 +197,7 @@ display: block;
 	list-style: none
 }
 #menu ul {
-	width: 100%;
-	text-align: left;
+    transition: transform 0.3s ease-in-out;
 }
 #menu li {
 	display: inline-block;
@@ -115,14 +216,14 @@ display: block;
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #0099CC;
-	background: #F2F2F2;
+    color: rgb(255, 0, 0);
+	background-color: brown;
 }
 #menu input {
 	display: none;
 	margin: 0;
 	padding: 0;
-	height: 45px;
+	height: 55px;
 	width: 100%;
 	opacity: 0;
 	cursor: pointer
@@ -134,6 +235,7 @@ display: block;
 	position: absolute;
 	left: 35px
 }
+
 #menu label:before {
 	font-size: 1.6em;
 	color: #FFFFFF;
@@ -176,4 +278,47 @@ display: block;
 	#menu input:checked + label {color:#FFFFFF}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
+}
+
+.col-12{
+	display: inline-block;
+	padding-left: 35%;
+	text-align: center;
+	border: seagreen;
+	
+}
+.botao-login {
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    display: block;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.corpo{
+	background-color: rgb(92, 91, 89);
+}
+.card-body {
+	background-color: #444444;
+	color: aliceblue;
+}
+.card-footer{
+	background-color: #444444;
+}
+.card{
+	background-color: #444444;
+}
+#menu a:focus, .botao-login:focus {
+    outline: 2px solid #FFA500; 
+    box-shadow: 0 0 5px 2px rgba(255, 165, 0, 0.5);
+}
+
+#cssportal-grid {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0px;
+	width: 100%;
+	height: 100%;
 }
