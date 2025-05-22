@@ -17,9 +17,9 @@
 <nav id='menu'>
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
   <ul>
-    <img src="c:\Users\aluno\Downloads\expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
+    <img src="/Imagem/expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
     <li><a href='#'>Home</a></li>
-    <li><a href='html/paginasobre.html'>Sobre</a></li>
+    <li><a href='/html/paginasobre.html'>Sobre</a></li>
     <li><a href='html/Galeriaexpedicao.html'>Galeria</a></li>
   </ul>
 </nav>
@@ -29,11 +29,11 @@
     <br>
     <main>
 <div id="cssportal-grid">
-	<div id="div1">Clair Obscur: Expedition 33 [ a ] é um RPG eletrônico baseado em turnos de 2025 desenvolvido pelo estúdio francês Sandfall Interactive e publicado pela Kepler Interactive . Ambientado em um cenário de fantasia sombria da Belle Époque , o jogo acompanha os voluntários da Expedição 33 em sua missão de destruir a Pintora, um ser que causa o Gommage anual, que apaga aqueles com idade cada vez menor. Jogado em terceira pessoa, o jogador controla um grupo de personagens, explorando áreas e se envolvendo em combate. Acoplados à sua mecânica baseada em turnos estão aspectos em tempo real, como eventos de tempo rápido e ações cronometradas em combate.</div>
-	<div id="div2"><img src="quarta imagemdiv.jpg" alt="" width="150px" height="150px">
-    <img src="segunda imagemdiv.jpg" alt="" width="150px" height="150px">
-<img src="primeira imagemdiv.jpg" alt="" width="150px" height="150px">
-<img src="terceiraimagemdiv.jpg" alt="" width="150px" height="150px"></div>
+	<div id="div1" style="color:rgb(0, 0, 0);">Clair Obscur: Expedition 33 [ a ] é um RPG eletrônico baseado em turnos de 2025 desenvolvido pelo estúdio francês Sandfall Interactive e publicado pela Kepler Interactive . Ambientado em um cenário de fantasia sombria da Belle Époque , o jogo acompanha os voluntários da Expedição 33 em sua missão de destruir a Pintora, um ser que causa o Gommage anual, que apaga aqueles com idade cada vez menor. Jogado em terceira pessoa, o jogador controla um grupo de personagens, explorando áreas e se envolvendo em combate. Acoplados à sua mecânica baseada em turnos estão aspectos em tempo real, como eventos de tempo rápido e ações cronometradas em combate.</div>
+	<div id="div2"><img src="/Imagem/quarta imagemdiv.jpg" alt="" width="150px" height="150px">
+    <img src="/Imagem/segunda imagemdiv.jpg" alt="" width="150px" height="150px">
+<img src="/Imagem/primeira imagemdiv.jpg" alt="" width="150px" height="150px">
+<img src="/Imagem/terceiraimagemdiv.jpg" alt="" width="150px" height="150px"></div>
 	<div id="div3"><ul>
        <h1>Cadastro para logar no xbox</h1>
         Nome:
@@ -46,7 +46,7 @@
          <br> <br>
          <div class="col-12">
             
-   <button type="submit" class="btn btn-primary botao-login">Sign in</button>
+   <button type="submit" class="btn btn-primary botao-login" style="background-color: darkgray; border: black; position: relative;">Sign in</button>
 
   </div>
  
@@ -64,7 +64,7 @@
   <div class="card-body">
     <h5 class="card-title" style="color: bisque;">Grau Tecnico</h5>
     <p class="card-text" style="color: aliceblue;">Com o suporte e a ajuda do professor Emanuell</p>
-    <a href="https://www.xbox.com/pt-BR/games/store/clair-obscur-expedition-33/9PPT8K6GQHRZ" class="btn btn-primary">Clique aqui para ir para o site xbox</a>
+    <a href="https://www.xbox.com/pt-BR/games/store/clair-obscur-expedition-33/9PPT8K6GQHRZ" class="btn btn-primary" style="background-color: cadetblue;">Clique aqui para ir para o site xbox</a>
   </div>
   <div class="card-footer">
     Todos os direitos Reservados <br>
@@ -74,6 +74,7 @@
     </footer>
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,24 +82,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script src="Js/jS.JS"></script>
-<link rel="stylesheet" href="css/projeto1.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+<script src="/Js/jS.JS"></script>
+<link rel="stylesheet" href="/css/projeto1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 <body style="background-color:black;">
     <header>
 <nav id='menu'>
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
   <ul>
-    <img src="c:\Users\aluno\Downloads\expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
-    <li><a href='../index.html'>Home</a></li>
-    <li><a href='paginasobre.html'>Sobre</a></li>
-    <li><a href='#'>Galeria</a></li>
+    <img src="/Imagem/expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
+    <li><a href='/index.html'>Home</a></li>
+    <li><a href='/html/paginasobre.html'>Sobre</a></li>
+    <li><a href='/html/Galeriaexpedicao.html'>Galeria</a></li>
   </ul>
 </nav>
 
-    </header>
     <iframe width="900" height="480" src="https://www.youtube.com/embed/GhazUEpdII0" title="CLAIR OBSCUR EXPEDITION 33 Gameplay Walkthrough FULL GAME [4K 60FPS PC ULTRA] - No Commentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="height: 500px; width: 100%; display: inline-block;">
     </iframe>
     <h5 class="text-center" style="color:black; background-color: aliceblue;">Vídeo completo mostrando o jogo, incluindo sua Gameplay</h5>
@@ -107,62 +106,112 @@
     <div id="cssportal-grid">
 </div>
 <div class="text-center"> 
-    <img src="c:\Users\aluno\Downloads\galeria1.jpg" alt="">
-    <img src="c:\Users\aluno\Downloads\galeria2.jpg" alt="">
-    <img src="c:\Users\aluno\Downloads\galeria 3.jpg" alt="">
+    <img src="/galeria1.jpg" alt="">
+    <img src="/galeria2.jpg" alt="">
+    <img src="/galeria 3.jpg" alt="">
     </div>
 
 </body>
 </html>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Expediction 33</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<link rel="stylesheet" href="css/projeto1.css">
-    <script src="Js/jS.JS"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Expedition 33</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+  <style>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-<body>
-    <header>
-<nav id='menu'>
-  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-  <ul>
-    <img src="c:\Users\aluno\Downloads\expedicao33.jpg" alt="Logo da Expedição" width="40px" height="40px">
-    <li><a href='../index.html'>Home</a></li>
-    <li><a href='#'>Sobre</a></li>
-    <li><a href='/html/Galeriaexpedicao.html'>Galeria</a></li>
-  </ul>
-</nav>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
+    }
 
-    </header>
-    <img src="c:\Users\aluno\Downloads\lumiere.jpg" alt="" width="100%" height="100%">
-    <header class="ccc text-center" style="background-color: red; height: 50px;">
-        <h1>Lidere a expedição. Quebre o ciclo.</h1>
+ 
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
 
-        <h5>Clair Obscur: Expedition 33 é um RPG inovador em turnos com mecânicas singulares em tempo real, que tornam as batalhas mais envolventes e viciantes do que nunca. Explore um mundo fantástico, inspirado na Belle Époque da França, e enfrente os mais terríveis inimigos.
-
-Uma vez por ano, a Artífice desperta e pinta em seu monólito. Ela pinta o número amaldiçoado. E todos com aquela idade viram fumaça e desaparecem. Ano após ano, um número menor é pintado e mais de nós somos apagados. Amanhã, ela despertará e pintará "33". E amanhã, partiremos em nossa missão final: destruir a Artífice, para que ela nunca mais possa pintar a morte.
-
-Somos a Expedição 33.</h5>
-
-    </header>
     
+    .video-bg iframe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      pointer-events: none;
+      border: none;
+      filter: brightness(0.4);
+    }
+
+  
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+      color: white;
+    }
+
+    header.ccc {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <div class="video-bg">
+    <iframe 
+      src="https://www.youtube.com/embed/_5lRwdHsKYA?autoplay=1&mute=1&loop=1&controls=0&playlist=_5lRwdHsKYA&modestbranding=1&showinfo=0&rel=0"
+      frameborder="0"
+      allow="autoplay; fullscreen"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  
+  <div class="content">
+    <header>
+      <nav id="menu">
+        <ul class="nav">
+          <li class="nav-item">
+            <img src="/Imagem/expedicao33.jpg" alt="Logo da Expedição" width="40" height="40">
+          </li>
+          <li class="nav-item"><a class="nav-link text-white" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="/html/Galeriaexpedicao.html">Galeria</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <header class="ccc text-center" style="color: darkgrey;">
+      <h1>Lidere a expedição. Quebre o ciclo.</h1>
+      <h5>
+        Clair Obscur: Expedition 33 é um RPG inovador em turnos com mecânicas singulares em tempo real, que tornam as batalhas mais envolventes e viciantes do que nunca. Explore um mundo fantástico, inspirado na Belle Époque da França, e enfrente os mais terríveis inimigos.<br><br>
+        Uma vez por ano, a Artífice desperta e pinta em seu monólito. Ela pinta o número amaldiçoado. E todos com aquela idade viram fumaça e desaparecem. Ano após ano, um número menor é pintado e mais de nós somos apagados. Amanhã, ela despertará e pintará "33". E amanhã, partiremos em nossa missão final: destruir a Artífice, para que ela nunca mais possa pintar a morte.<br><br>
+        Somos a Expedição 33.
+      </h5>
+    </header>
+  </div>
+
 </body>
 </html>
-function updatemenu() {
-  if (document.getElementById('responsive-menu').checked == true) {
-    document.getElementById('menu').style.borderBottomRightRadius = '0';
-    document.getElementById('menu').style.borderBottomLeftRadius = '0';
-  }else{
-    document.getElementById('menu').style.borderRadius = '10px';
-  }
-}
+
 
 
 
@@ -216,8 +265,8 @@ function updatemenu() {
 	margin-left: 5px;
 }
 #menu li a:hover {
-    color: rgb(255, 0, 0);
-	background-color: brown;
+    color:aliceblue;
+	background-color:#444444;
 }
 #menu input {
 	display: none;
@@ -292,7 +341,7 @@ function updatemenu() {
     height: 50px;
     margin: 20px auto;
     display: block;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -310,8 +359,8 @@ function updatemenu() {
 	background-color: #444444;
 }
 #menu a:focus, .botao-login:focus {
-    outline: 2px solid #FFA500; 
-    box-shadow: 0 0 5px 2px rgba(255, 165, 0, 0.5);
+    outline: 2px solid wheat; 
+    box-shadow: 0 0 5px 2px gainsboro;
 }
 
 #cssportal-grid {
@@ -322,3 +371,6 @@ function updatemenu() {
 	width: 100%;
 	height: 100%;
 }
+
+
+ 
